@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+  background-color: hsl(185deg, 75%, 39%);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 47rem bottom 10rem, left 44rem top 17rem;
+  font-family: "Kumbh Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  border-radius: 1rem;
+  width: 21.875rem;
+  background-color: #fff;
+  color: hsl(227deg, 10%, 46%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .bg-top {
+  border-radius: 1rem 1rem 0 0;
+}
+.container .user-avatar {
+  border-radius: 50%;
+  border: 4px solid #fff;
+  position: absolute;
+  transform: translateY(5.4rem);
+}
+.container .name {
+  margin-top: 4.3rem;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: hsl(229deg, 23%, 23%);
+}
+.container .name .age {
+  margin-left: 0.2rem;
+  font-weight: 400;
+  color: hsl(227deg, 10%, 46%);
+}
+.container .country {
+  width: 100%;
+  margin-top: 0.4rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid hsl(0deg, 1%, 82%);
+  font-size: 0.9rem;
+  text-align: center;
+}
+.container .box-stats {
+  display: flex;
+  justify-content: space-between;
+  width: 15.5rem;
+}
+.container .stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.container .stats .numbers {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: hsl(229deg, 23%, 23%);
+}
+.container .stats .segment {
+  font-size: 0.62rem;
+  letter-spacing: 0.1rem;
+  margin-top: 0.2rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  font-size: 0.69rem;
+  color: hsl(229deg, 23%, 23%);
+}
+footer .attribution a {
+  color: hsl(0deg, 1%, 82%);
+  text-decoration: none;
+}
+footer .attribution a:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=style.css.map */
